@@ -139,7 +139,7 @@ const ServiceSection = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="relative min-w-[300px] md:min-w-[400px] h-[520px] rounded-lg shadow-lg 
+                className="relative min-w-[300px] md:min-w-[400px] h-[520px] rounded-lg shadow-lg border-[#dc2626]
              hover:shadow-primary hover:border-primary/80 overflow-hidden group hover:border-primary/80 dark:border dark:border-primary
              hover:scale-105 active:scale-105 bg-white hover:shadow-primary hover:border-primary/80 dark:bg-black/90 transition-all duration-300"
                 data-aos="fade-up"
